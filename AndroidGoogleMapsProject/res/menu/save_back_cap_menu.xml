@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item_save"
+          android:icon="@drawable/layers_hybrid"
+          android:title="บันทึก"></item>
+    <item android:id="@+id/item_cap"
+        android:icon="@drawable/ic_menu_camera"
+          android:title="ถ่ายรูป"></item>
+    <item android:id="@+id/item_back_home"
+        android:icon="@drawable/ic_action_turn_left"
+          android:title="กลับหน้าหนัก"></item>
+</menu>

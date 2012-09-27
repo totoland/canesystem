@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg9" >
+
+<ScrollView
+	android:id="@+id/widget96"
+	android:layout_x="1dp"
+	android:layout_y="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<AbsoluteLayout
+    android:id="@+id/widget97"
+    android:layout_width="797dp"
+    android:layout_height="954dp" >
+
+<TextView style="@style/TextViewHeader"  android:id="@+id/textView1"  android:text="@string/page_note" android:layout_x="5dp" android:layout_y="-1dp" android:layout_width="287dp"></TextView>
+<EditText
+    style="@style/EditText"
+	android:id="@+id/widget37"
+	android:layout_y="32dp" />
+<EditText
+style="@style/EditText"
+	android:id="@+id/widget37_copy"
+	android:layout_y="60dp" />
+<EditText
+    style="@style/EditTextDate"
+	android:layout_y="88dp" android:id="@+id/textDate1"/>
+<EditText
+    style="@style/EditTextDate"
+	android:layout_y="116dp" android:id="@+id/textDate2"/>
+<EditText
+    style="@style/EditTextDate"
+	android:layout_y="144dp" android:id="@+id/textDate3"/>
+<ImageButton 
+    style="@style/DateButton"
+     android:background="@drawable/calendar16"
+	android:text="..."
+	android:layout_y="88dp" android:id="@+id/btnDate1"/>
+<ImageButton
+    style="@style/DateButton"
+    android:background="@drawable/calendar16"
+	android:text="..."
+	android:layout_y="116dp" android:id="@+id/btnDate2"/>
+<ImageButton
+    style="@style/DateButton"
+    android:background="@drawable/calendar16"
+	android:text="..."
+	android:layout_y="144dp" android:id="@+id/btnDate3"/>
+<TextView style="@style/TextView" 
+	android:id="@+id/widget60_copy"
+	android:text="&#3648;&#3621;&#3586;&#3607;&#3637;&#3656;&#3650;&#3588;&#3623;&#3605;&#3657;&#3634;"
+	
+	android:layout_y="30dp"/>
+<TextView style="@style/TextView" 
+	android:id="@+id/widget60_copy_copy"
+	android:text="&#3648;&#3621;&#3586;&#3607;&#3637;&#3656;&#3649;&#3611;&#3621;&#3591;&#3611;&#3621;&#3641;&#3585;"
+	android:layout_y="57dp" />
+<TextView style="@style/TextViewRequest" 
+	android:id="@+id/widget60_copy_copy_copy"
+	android:text="&#3623;&#3633;&#3609;&#3607;&#3637;&#3656;&#3605;&#3619;&#3623;&#3592;&#3626;&#3629;&#3610;"
+	android:layout_y="87dp" />
+<TextView style="@style/TextViewRequest" 
+	android:id="@+id/widget60_copy_copy_copy"
+	android:text="&#3623;&#3633;&#3609;&#3607;&#3637;&#3656;&#3611;&#3621;&#3641;&#3585;"
+	android:layout_y="116dp" />
+<TextView style="@style/TextViewRequest" 
+	android:id="@+id/widget60_copy_copy_copy"
+	android:text="&#3611;&#3619;&#3632;&#3617;&#3634;&#3603;&#3626;&#3656;&#3591;&#3629;&#3657;&#3629;&#3618;&#3648;&#3586;&#3657;&#3634;&#3627;&#3637;&#3610;"
+	android:layout_y="143dp" />
+<TextView style="@style/TextView" 
+	android:id="@+id/widget60_copy_copy_copy"
+	android:text="&#3585;&#3634;&#3619;&#3651;&#3626;&#3656;&#3611;&#3640;&#3659;&#3618; [&#3626;&#3641;&#3605;&#3619;&#3611;&#3640;&#3659;&#3618;]"
+	android:layout_y="172dp" />
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy"
+	android:layout_width="18dp"
+	android:layout_height="wrap_content"
+	android:text="*"
+	android:layout_y="139dp" />
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy_copy"
+	android:text="*"
+
+	android:layout_y="85dp"/>
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy_copy"
+	android:text="*"
+	android:layout_y="112dp" />
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy_copy"
+	android:text="*"
+	android:layout_y="336dp" />
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy_copy"
+	android:text="*"
+	android:layout_y="362dp" />
+<TextView style="@style/RedStar" 
+	android:id="@+id/widget60_copy_copy_copy_copy_copy"
+	android:text="*"
+	android:layout_y="300dp"/>
+<TextView style="@style/TextView" android:id="@+id/widget60_copy_copy_copy" android:text="ยี่ห้อ"  android:layout_y="210dp"></TextView>
+<TextView style="@style/TextView" android:id="@+id/widget60_copy_copy_copy" android:text="อัตราการใส่ปุ๋ย"  android:layout_y="244dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy" android:text="ชื่อ-สกุลชาวไร่"  android:layout_y="272dp"></TextView>
+<TextView style="@style/TextViewRequest"  android:id="@+id/widget60_copy_copy_copy" android:text="การปลูก" android:layout_y="303dp"></TextView>
+<TextView style="@style/TextViewRequest"  android:id="@+id/widget60_copy_copy_copy" android:text="ระยะร่อง"  android:layout_y="341dp"></TextView>
+<TextView style="@style/TextViewRequest"  android:id="@+id/widget60_copy_copy_copy" android:text="ประเมินผลผลิต"  android:layout_y="369dp"></TextView>
+<TextView style="@style/TextViewRequest"  android:id="@+id/widget60_copy_copy_copy" android:text="การกำจัดวัชพืช" android:layout_y="396dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy" android:text="การให้น้ำ"  android:layout_y="434dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy" android:text="ปริมาณให้น้ำ"  android:layout_y="473dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy_copy" android:text="ค่า Brix"  android:layout_y="502dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy_copy" android:text="ประเภทอ้อย" android:layout_y="530dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy_copy" android:text="พันธ์อ้อย"  android:layout_y="558dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy_copy" android:text="โรค [รุบุ]"  android:layout_y="598dp"></TextView>
+<TextView style="@style/TextView"  android:id="@+id/widget60_copy_copy_copy_copy" android:text="โรค [รุบุ]"  android:layout_y="720dp"></TextView>
+<Spinner style="@style/Spinner"  android:id="@+id/spinner2"  android:layout_y="210dp"></Spinner>
+<EditText style="@style/EditTextShot" android:id="@+id/widget37_copy"  android:layout_y="248dp"></EditText>
+<EditText style="@style/EditText" android:id="@+id/widget37_copy"  android:layout_y="276dp"></EditText>
+<Spinner style="@style/Spinner" android:id="@+id/spinner3"   android:layout_y="303dp"></Spinner>
+<Spinner  style="@style/Spinner" android:id="@+id/spinner1"  android:layout_y="172dp"></Spinner>
+<EditText style="@style/EditTextShot" android:id="@+id/widget37_copy"  android:layout_y="341dp"></EditText>
+<EditText style="@style/EditTextShot" android:id="@+id/widget37_copy"  android:layout_y="369dp"></EditText>
+<Spinner  style="@style/Spinner" android:id="@+id/spinner4" android:layout_y="396dp"></Spinner>
+<Spinner style="@style/Spinner" android:id="@+id/spinner5"   android:layout_y="434dp"></Spinner>
+<TextView style="@style/TextViewBack" android:id="@+id/widget60_copy_copy" android:text="ตัน/ไร่" android:layout_y="369dp"></TextView>
+<TextView style="@style/TextViewBack" android:id="@+id/widget60_copy" android:text="เมตร"  android:layout_y="341dp"></TextView>
+<EditText style="@style/EditTextShot" android:id="@+id/widget37_copy"  android:layout_y="473dp">
+    <requestFocus></requestFocus>
+</EditText>
+<EditText style="@style/EditTextShot" android:id="@+id/widget37_copy" android:layout_y="502dp"></EditText>
+<EditText style="@style/EditText" android:id="@+id/widget37_copy" android:layout_y="530dp"></EditText>
+
+<Spinner style="@style/Spinner" android:id="@+id/spinner6" android:layout_y="558dp"></Spinner>
+<TextView style="@style/TextViewBack" android:id="@+id/widget60" android:text="ก.ก./ไร่"  android:layout_y="248dp"></TextView>
+<TextView style="@style/RedStar" android:id="@+id/widget60_copy_copy_copy_copy_copy" android:text="*"  android:layout_y="390dp"></TextView>
+<Button android:layout_x="30dp" android:id="@+id/button1" android:text="ถ่ายรูป" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_y="850dp"></Button>
+<Button android:layout_x="93dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="บันทึก" android:id="@+id/button2" android:layout_y="850dp"></Button>
+<Button android:layout_x="150dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="กลับเมนูหลัก" android:id="@+id/button3" android:layout_y="850dp" android:onClick="backToMainMenu"></Button>
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox1" android:text="ใบขาว"  android:layout_y="598dp"></CheckBox>
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox2" android:text="เหี่ยว"  android:layout_y="632dp"></CheckBox>
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox2" android:text="ใบแห้ง"  android:layout_y="665dp"></CheckBox>
+<!--  
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="เนาแดง"  android:layout_y="598dp"></CheckBox>
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="กลิ่นสับปะรด"  android:layout_y="632dp"></CheckBox>
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="แส้ดำ"  android:layout_y="665dp"></CheckBox>
+-->
+
+
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox1" android:text="หนอนกอลายจุดเล็ก"  android:layout_y="720dp"></CheckBox>
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox2" android:text="หนอนกอสีขาว"  android:layout_y="753dp"></CheckBox>
+<CheckBox style="@style/CheckBox1"  android:id="@+id/checkBox2" android:text="หนอนกอสีชมพู"  android:layout_y="785dp"></CheckBox>
+<!--  
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="ม้วนอ้อย"  android:layout_y="720dp"></CheckBox>
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="แมลงนูนหลวง"  android:layout_y="753dp"></CheckBox>
+<CheckBox style="@style/CheckBox2"  android:id="@+id/checkBox4" android:text="ปลวก"  android:layout_y="785dp"></CheckBox>
+-->
+</AbsoluteLayout>
+</ScrollView>
+</AbsoluteLayout>
+

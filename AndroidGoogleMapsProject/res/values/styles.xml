@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+	<item name="android:windowIsFloating">false</item>
+	<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	    
+  <style name="TextView" parent="@android:style/TextAppearance.Medium">
+		<item name="android:gravity">right</item>
+		<item name="android:layout_width">125dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:textColor">#000000</item> 
+		<item name="android:textSize">14px</item>
+	    <item name="android:layout_x">6dp</item>	
+	</style>
+	<style name="TextMenu" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">150dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:padding">2dp</item>
+		<item name="android:textSize">12dp</item>
+		<item name="android:layout_x">140dp</item>
+	</style>
+	<style name="TextViewRequest" parent="@android:style/TextAppearance.Medium">
+		<item name="android:gravity">right</item>
+		<item name="android:layout_width">120dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:textSize">14px</item>
+	    <item name="android:layout_x">6dp</item>	
+	</style>
+	
+	 <style name="TextViewBack" parent="@android:style/TextAppearance.Medium">
+		<item name="android:gravity">left</item>
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">30dp</item>
+	    <item name="android:textColor">#000000</item>
+		<!-- item name="android:typeface">monospace</item -->
+		<item name="android:textSize">14px</item>
+		<item name="android:layout_x">250dp</item>
+	 </style>
+	
+	 <style name="RedStar" parent="@android:style/TextAppearance.Medium">
+		<item name="android:gravity">top</item>
+		<item name="android:layout_width">20dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:textColor">#ff0000</item>
+		<item name="android:textSize">25px</item>
+	    <item name="android:layout_x">125dp</item>
+	</style>
+	
+    <style name="TextViewHeader" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_gravity">left</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:typeface">monospace</item>
+		<item name="android:textSize">14px</item>
+	</style>
+
+	<style name="EditText" parent="@android:style/Widget.EditText">
+		<item name="android:layout_width">150dp</item>
+	</style>
+	
+     <style name="EditTextDate" parent="@android:style/Widget.EditText">
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:padding">2dp</item>
+		<item name="android:textSize">20dp</item>
+		<item name="android:layout_x">140dp</item>
+	</style>
+	
+	<style name="EditTextShot" parent="@android:style/Widget.EditText">
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">30dp</item>
+		<item name="android:padding">2dp</item>
+		<item name="android:textSize">20dp</item>
+		<item name="android:layout_x">140dp</item>
+	</style>
+	
+	<style name="Spinner" parent="@android:style/Widget.Spinner" >
+	    <item name="android:layout_width">150dp</item>
+	</style>
+	
+	<style name="DateButton" parent="android:style/Widget.ImageButton">
+       <item name="android:textSize">19sp</item>
+       <item name="android:layout_width">28dp</item>   
+       <item name="android:layout_height">28dp</item> 
+       <item name="android:layout_x">240dp</item>        
+       <!--item name="android:background">#ff0000</item-->
+    </style>	
+	
+    <style name="CheckBox1" parent="@android:style/Widget.CompoundButton.CheckBox"> 
+        <item name="android:layout_width">wrap_content</item>   
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">14px</item>
+		<item name="android:layout_x">140dp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	
+    <style name="CheckBox2" parent="@android:style/Widget.CompoundButton.CheckBox"> 
+        <item name="android:layout_width">wrap_content</item>   
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">25px</item>
+		<item name="android:layout_x">270dp</item>
+	    <item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="MenuButton" parent="android:style/Widget.ImageButton">
+       <item name="android:textSize">19sp</item>
+       <item name="android:layout_width">50dp</item>   
+       <item name="android:layout_height">50dp</item> 
+       <item name="android:layout_y">40dp</item>        
+       <!--item name="android:background">#ff0000</item-->
+    </style>
+    <style name="heading_text">
+		<item name="android:textColor">#ff000000</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:padding">5dp</item>
+	</style>
+	
+     <style name="HomeButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

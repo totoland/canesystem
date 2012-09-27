@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widgetMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg9"
+    android:orientation="horizontal"
+    tools:ignore="Deprecated" >
+
+    <ScrollView
+        android:id="@+id/widget96"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_y="1dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="6dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="เลขที่โควต้า"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_cota"
+                    style="@style/EditText"
+                    android:enabled="false"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="ชื่อ-นามสกุล"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_name_lname"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="หมายเลขแปลง"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_plang_no"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="ประเภทอ้อย"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_cane_type"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="พันธุ์อ้อย"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_type_cane"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_date_approve"
+                    style="@style/TextView"
+                    android:text="วันที่ตรวจสอบ"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_type_cane"
+                    style="@style/EditText">
+                </EditText>
+                <ImageButton 
+    style="@style/DateButton"
+     android:background="@drawable/calendar16"
+	android:text="..."
+	android:layout_y="88dp" android:id="@+id/btnDate1"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_puy"
+                    style="@style/TextView"
+                    android:text="การใส่ปุ๋ย [สูตรปุ๋ย]"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_puy"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_modal"
+                    style="@style/TextView"
+                    android:text="ยี่ห้อ"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_modal"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_puy"
+                    style="@style/TextView"
+                    android:text="อัตราการใส่ปุ๋ย"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_name_lnamex"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_wather"
+                    style="@style/TextView"
+                    android:text="การให้น้ำ"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_wather"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_prun_din"
+                    style="@style/TextView"
+                    android:text="การงอก"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_prun_din"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_uses_venas"
+                    style="@style/TextView"
+                    android:text="การใช้วีแนส"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_venas"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_cota"
+                    style="@style/TextView"
+                    android:text="การใช้วีแนส [คิว/ไร่]"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/txt_venas"
+                    style="@style/EditText"
+                    android:layout_y="276dp" >
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_uses_venas"
+                    style="@style/TextView"
+                    android:text="การใช้สารเคมีในการกำจัดวัชพืช"
+                    android:textStyle="normal" />
+
+                <Spinner style="@style/Spinner"  android:id="@+id/ddl_venas"  android:layout_y="210dp"></Spinner>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_puy"
+                    style="@style/TextView"
+                    android:text="หมายเหตุ"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:ems="10"
+                    android:inputType="textPostalAddress" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_nvl"
+                    style="@style/TextView"
+                    android:text="โรค"
+                    android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                style="@style/CheckBox1"
+                android:text="ใบขาว" >
+            </CheckBox>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_nvl"
+                    style="@style/TextView"
+                    android:text="@string/NVL"
+                    android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                style="@style/CheckBox1"
+                android:text="เหี่ยว" >
+            </CheckBox>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_nvl"
+                    style="@style/TextView"
+                    android:text="@string/NVL"
+                    android:textStyle="normal" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                style="@style/CheckBox1"
+                android:text="ใบแห้ง" >
+            </CheckBox>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lb_nvl"
+                    style="@style/TextView"
+                    android:text="@string/NVL"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="บันทึก" />
+
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

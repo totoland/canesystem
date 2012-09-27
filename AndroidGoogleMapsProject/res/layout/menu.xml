@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widgetMenu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg11"
+    tools:ignore="Deprecated" >
+    
+    <ScrollView
+	android:id="@+id/widget96"
+	android:layout_x="1dp"
+	android:layout_y="1dp" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+    
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+	
+	<Button android:id="@+id/btnMenu1"
+            style="@style/HomeButton"
+            android:text="การเดินทาง"
+            android:drawableTop="@drawable/travel"/>
+	
+	<Button android:id="@+id/btnMenu2"
+            style="@style/HomeButton"
+            android:text="รายงาน"
+            android:drawableTop="@drawable/reportalt"/>
+	<Button android:id="@+id/btnMenu3"
+            style="@style/HomeButton"
+            android:text="รายงานแผนที่"
+            android:drawableTop="@drawable/maps1"/>
+</LinearLayout>
+
+	    <LinearLayout
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1">
+	
+			<Button android:id="@+id/btnMenu4"
+		            style="@style/HomeButton"
+		            android:text="กิจกรรม"
+		            android:drawableTop="@drawable/todo2"/>
+			<Button android:id="@+id/btnMenu5"
+		            style="@style/HomeButton"
+		            android:text="ไปทีอยู่ชาวไร่"
+		            android:drawableTop="@drawable/sketchesiq2"/>
+
+			<Button
+			    android:id="@+id/btnMenu6"
+			    style="@style/HomeButton"
+			    android:drawableTop="@drawable/maps"
+			    android:text="ไปที่ตั้งแปลง" />
+
+	    </LinearLayout>
+	    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+			<Button android:id="@+id/btnMenu7"
+		            style="@style/HomeButton"
+		            android:text="นำเข้าข้อมูล"
+		            android:drawableTop="@drawable/downloadgreen"/>
+			<Button android:id="@+id/btnMenu8"
+		            style="@style/HomeButton"
+		            android:text="ส่งออกข้อมูล"
+		            android:drawableTop="@drawable/downloadsmagentar"/>
+			<Button android:id="@+id/btnMenu9"
+		            style="@style/HomeButton"
+		            android:text="ส่งพิกัด"
+		            android:drawableTop="@drawable/mobilecast"/>
+		</LinearLayout>
+		<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+			<Button android:id="@+id/btnMenu10"
+		            style="@style/HomeButton"
+		            android:text="การตั้งค่า"
+		            android:drawableTop="@drawable/settings_alt"/>
+			<Button android:id="@+id/btnMenu11"
+		            style="@style/HomeButton"
+		            android:text=""/>
+			<Button android:id="@+id/btnMenu12"
+		            style="@style/HomeButton"
+		            android:text=""/>
+		</LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

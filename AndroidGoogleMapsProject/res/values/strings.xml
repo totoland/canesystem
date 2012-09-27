@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GMapsActivity!</string>
+    <string name="page_note">บันทึกข้อมูล</string>
+    <string name="app_name">ระบบอ้อย</string>
+    <string name="dateSliderTitle">Selected date</string>
+    <string name="now_gis">tagging</string>
+    <string name="bt_now_gis">tagging</string>
+    <string name="bt_close_gis">หยุด tagging</string>
+    <string name="polygon">bt_polygon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_map">ระบบบริหารและจัดการอ้อย</string>
+    <string name="title_activity_gmap">การเดินทาง</string>
+    <string name="bt_new_map">new Map</string>
+    <string name="polygon_map">แสดงแปลง (polygon)</string>
+    <string name="title_activity_main_menu">ระบบบริหารและจัดการอ้อย</string>
+    <string name="tagging">Tagging</string>
+    <string name="bt_save_oiy">บันทึกไร่อ้อย</string>
+    <string name="main_menu">Main menu</string>
+    <string name="bt_xml">XML</string>
+    <string name="balloon_item_title">balloon_item_title</string>
+    <string name="balloon_item_snippet">balloon_item_snippet</string>
+    <string name="NVL">" "</string>
+    <string name="txt_activity">กิจกรรม</string>
+    <string name="plang_polygon">แปลงอ้อย (polygon)</string>
+    <string name="txt_report">รายงาน</string>
+    <string name="save_note_cane">บันทึกไร่อ้อย</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="app_name_menu_activity">กิจกรรม</string>
+     <string name="app_name_note_1">บันทึกข้อมูล</string>
+     <string name="app_name_note_2">กิจกรรมอ้อยปลูกใหม่ครั่งที่1</string>
+     <string name="app_name_note_3">กิจกรรมอ้อยปลูกใหม่ครั้งที่2</string>
+     <string name="app_name_note_4">กิจกรรมอ้อยตอครั้งที่1</string>
+     <string name="app_name_note_5">กิจกรรมอ้อยตอครั้งที่2</string>
+     <string name="app_name_note_6">การวัดการเจริญเติบโตอ้อย</string>
+    <string name="title_activity_cane_tor1">CaneTor1Activity</string>
+    <string name="title_activity_cane_tor2">app_name_note_4</string>
+
+</resources>
