@@ -4,36 +4,27 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import com.android.activity.R;
-import com.nu.dao.FieldDAO;
-import com.nu.dto.Field;
 
-import android.app.Activity;
+import com.android.activity.MenuActivity;
+import com.android.activity.R;
+import com.android.gen.formgenerator.FormActivity;
+
 import android.app.DatePickerDialog;
 import android.app.Dialog;
-import android.graphics.Color;
-import android.graphics.Point;
+import android.content.Intent;
 import android.os.Bundle;
-import android.sax.TextElementListener;
-import android.view.Display;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
-import android.widget.AbsoluteLayout;
 import android.widget.ArrayAdapter;
-import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.Spinner;
-import android.widget.TextView;
 
-public class Note4Activity extends Activity {
+public class Note4Activity extends FormActivity {
 	/** Called when the activity is first created. */
 	// Start Date
 	static final int DATE_DIALOG_ID_1 = 111;
@@ -65,21 +56,24 @@ public class Note4Activity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-
-		Display display = getWindowManager().getDefaultDisplay();
-		Point size = new Point();
-		int width = display.getWidth();// size.x;
-		int height = display.getHeight();
-		
-		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
-		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note4Activity.class.getSimpleName(), width, height);
-		
-//		setCurrentDateOnView();
-//		addListenerOnButton();
-//		addItemsOnSpinner1();
-//		addItemsOnSpinner2();
+//		super.onCreate(savedInstanceState);
+//		setContentView(R.layout.main);
+//
+//		Display display = getWindowManager().getDefaultDisplay();
+//		Point size = new Point();
+//		int width = display.getWidth();// size.x;
+//		int height = display.getHeight();
+//		
+//		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
+//		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note4Activity.class.getSimpleName(), width, height);
+//		
+////		setCurrentDateOnView();
+////		addListenerOnButton();
+////		addItemsOnSpinner1();
+////		addItemsOnSpinner2();
+		super.onCreate( savedInstanceState );
+        generateForm( FormActivity.parseFileToString( this, "schemas1.json" ) );
+        save();
 	}
 
 //	private int getX_leble(int column) {
@@ -117,7 +111,9 @@ public class Note4Activity extends Activity {
         }else if(item.getItemId()==R.id.item_cap){
     
         }else if(item.getItemId()==R.id.item_back_home){
-    
+        	 Intent myIntent = new Intent(this, MenuActivity.class);
+             startActivityForResult(myIntent, 0);
+             finish();
         }
         return true;
     }
@@ -240,7 +236,7 @@ public class Note4Activity extends Activity {
 	public void addItemsOnSpinner1() {
 		spinner1 = (Spinner) findViewById(200 + 6);
 		List<String> list = new ArrayList<String>();
-		list.add("¡ÃØ³ÒàÅ×Í¡");
+		list.add("ï¿½ï¿½Ø³ï¿½ï¿½ï¿½ï¿½Í¡");
 		list.add("16-16-2");
 		list.add("16-16-10");
 		list.add("16-16-16");
@@ -255,10 +251,10 @@ public class Note4Activity extends Activity {
 
 		spinner2 = (Spinner) findViewById(200 + 7);
 		List<String> list = new ArrayList<String>();
-		list.add("¡ÃØ³ÒàÅ×Í¡");
-		list.add("µÃÒàÃ×Íãº");
-		list.add("¡ÃÐµèÒÂ");
-		list.add("µÃÒËÑÇÇÑÇ");
+		list.add("ï¿½ï¿½Ø³ï¿½ï¿½ï¿½ï¿½Í¡");
+		list.add("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+		list.add("ï¿½ï¿½Ðµï¿½ï¿½ï¿½");
+		list.add("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, list);
 		dataAdapter

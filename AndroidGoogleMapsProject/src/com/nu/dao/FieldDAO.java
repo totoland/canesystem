@@ -34,61 +34,61 @@ public class FieldDAO {
 	
 	public ArrayList getFieldNote1(){
 		  ArrayList result = new ArrayList();
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
-		  Field f2 = new Field("Note","‡≈¢∑’Ë·ª≈ßª≈Ÿ°","EditText",1,true,false,1,null);
+		  Field f2 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÅ‡∏õ‡∏•‡∏á‡∏õ‡∏•‡∏π‡∏Å","EditText",1,true,false,1,null);
 		  result.add(f2);
-		  Field f3 = new Field("Note","«—π∑’Ëµ√«® Õ∫","Date",1,false,true,2,null);
+		  Field f3 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö","Date",1,false,true,2,null);
 		  result.add(f3);
-		  Field f4 = new Field("Note","«—π∑’Ëª≈Ÿ°","Date",1,false,true,3,null);
+		  Field f4 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏õ‡∏•‡∏π‡∏Å","Date",1,false,true,3,null);
 		  result.add(f4);
-		  Field f5 = new Field("Note","ª√–¡“≥ ËßÕÈÕ¬‡¢È“À’∫*","Date",1,false,true,4,null);
+		  Field f5 = new Field("Note","‡∏õ‡∏£‡∏∞‡∏°‡∏≤‡∏ì‡∏™‡πà‡∏á‡∏≠‡πâ‡∏≠‡∏¢‡πÄ‡∏Ç‡πâ‡∏≤‡∏´‡∏µ‡∏ö*","Date",1,false,true,4,null);
 		  result.add(f5);	
-		  Field f20 = new Field("Note","ª√–¡“≥ ËßÕÈÕ¬‡¢È“À’∫","EditText",1,true,false,5,null);
+		  Field f20 = new Field("Note","‡∏õ‡∏£‡∏∞‡∏°‡∏≤‡∏ì‡∏™‡πà‡∏á‡∏≠‡πâ‡∏≠‡∏¢‡πÄ‡∏Ç‡πâ‡∏≤‡∏´‡∏µ‡∏ö","EditText",1,true,false,5,null);
 		  result.add(f20);
-		  Field f6 = new Field("Note","°“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬]","Spinner",1,true,false,6,null);
+		  Field f6 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢]","Spinner",1,true,false,6,null);
 		  result.add(f6);
-		  Field f7 = new Field("Note","¬’ËÀÈÕ","Spinner",1,true,false,7,null);
+		  Field f7 = new Field("Note","‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠","Spinner",1,true,false,7,null);
 		  result.add(f7);
-		  Field f8 = new Field("Note","Õ—µ√“°“√„ ËªÿÎ¬","EditText",1,true,false,8,null);
+		  Field f8 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢","EditText",1,true,false,8,null);
 		  result.add(f8);
-		  Field f9 = new Field("Note","™◊ËÕ- °ÿ≈™“«‰√Ë","EditText",1,true,false,9,null);
+		  Field f9 = new Field("Note","‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà","EditText",1,true,false,9,null);
 		  result.add(f9);
-		  Field f10 = new Field("Note","°“√ª≈Ÿ°","EditText",1,true,true,10,null);
+		  Field f10 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏õ‡∏•‡∏π‡∏Å","EditText",1,true,true,10,null);
 		  result.add(f10);
-		  Field f11 = new Field("Note","√–¬–√ËÕß","EditText",1,true,true,11,null);
+		  Field f11 = new Field("Note","‡∏£‡∏∞‡∏¢‡∏∞‡∏£‡πà‡∏≠‡∏á","EditText",1,true,true,11,null);
 		  result.add(f11);
-		  Field f12 = new Field("Note","ª√–‡¡‘πº≈º≈‘µ","EditText",1,true,true,12,null);
+		  Field f12 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏°‡∏¥‡∏ô‡∏ú‡∏•‡∏ú‡∏•‡∏¥‡∏ï","EditText",1,true,true,12,null);
 		  result.add(f12);
-		  Field f13 = new Field("Note","°“√°”®—¥«—™æ◊™","EditText",1,true,true,13,null);
+		  Field f13 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä","EditText",1,true,true,13,null);
 		  result.add(f13);
-		  Field f14 = new Field("Note","°“√„ÀÈπÈ”","EditText",1,true,false,14,null);
+		  Field f14 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","EditText",1,true,false,14,null);
 		  result.add(f14);
-		  Field f15 = new Field("Note","ª√‘¡“≥„ÀÈπÈ”","EditText",1,true,false,15,null);
+		  Field f15 = new Field("Note","‡∏õ‡∏£‡∏¥‡∏°‡∏≤‡∏ì‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","EditText",1,true,false,15,null);
 		  result.add(f15);
-		  Field f16 = new Field("Note","§Ë“ Brix","EditText",1,true,false,16,null);
+		  Field f16 = new Field("Note","‡∏Ñ‡πà‡∏≤ Brix","EditText",1,true,false,16,null);
 		  result.add(f16);
-		  Field f17 = new Field("Note","ª√–‡¿∑ÕÈÕ¬","EditText",1,true,false,17,null);
+		  Field f17 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,17,null);
 		  result.add(f17);
-		  Field f18 = new Field("Note","æ—π∏ÏÕÈÕ¬","Spinner",1,true,false,18,null);
+		  Field f18 = new Field("Note","‡∏û‡∏±‡∏ô‡∏ò‡πå‡∏≠‡πâ‡∏≠‡∏¢","Spinner",1,true,false,18,null);
 		  result.add(f18);
 		  StringBuilder dataF19 =new StringBuilder();
-		  dataF19.append("„∫¢“«|");
-		  dataF19.append("‡À’Ë¬«|");
-		  dataF19.append("·ÀÈß|");
-		  dataF19.append("‡π“·¥ß|");
-		  dataF19.append("°≈‘Ëπ —∫ª–√¥|");
-		  dataF19.append("· È¥”");
-		  Field f19 = new Field("Note"," ‚√§ [√–∫ÿ]","CheckBox",1,true,false,19,dataF19.toString());
+		  dataF19.append("‡πÉ‡∏ö‡∏Ç‡∏≤‡∏ß|");
+		  dataF19.append("‡πÄ‡∏´‡∏µ‡πà‡∏¢‡∏ß|");
+		  dataF19.append("‡πÅ‡∏´‡πâ‡∏á|");
+		  dataF19.append("‡πÄ‡∏ô‡∏≤‡πÅ‡∏î‡∏á|");
+		  dataF19.append("‡∏Å‡∏•‡∏¥‡πà‡∏ô‡∏™‡∏±‡∏ö‡∏õ‡∏∞‡∏£‡∏î|");
+		  dataF19.append("‡πÅ‡∏™‡πâ‡∏î‡∏≥");
+		  Field f19 = new Field("Note"," ‡πÇ‡∏£‡∏Ñ [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,19,dataF19.toString());
 		  result.add(f19);
 		  StringBuilder dataF21 =new StringBuilder();
-		  dataF21.append("ÀπÕπ°Õ≈“¬®ÿ¥‡≈Á°|");
-		  dataF21.append("ÀπÕπ°Õ ’¢“«|");
-		  dataF21.append("ÀπÕπ°Õ ’™¡æŸ|");
-		  dataF21.append("¡È«πÕÈÕ¬|");
-		  dataF21.append("µ—Í°°√–·µπ|");
-		  dataF21.append("µ—Í°°√–∑“¬");
-		  Field f21 = new Field("Note","·¡≈ß [√–∫ÿ]","CheckBox",1,true,false,21,dataF21.toString());
+		  dataF21.append("‡∏´‡∏ô‡∏≠‡∏ô‡∏Å‡∏≠‡∏•‡∏≤‡∏¢‡∏à‡∏∏‡∏î‡πÄ‡∏•‡πá‡∏Å|");
+		  dataF21.append("‡∏´‡∏ô‡∏≠‡∏ô‡∏Å‡∏≠‡∏™‡∏µ‡∏Ç‡∏≤‡∏ß|");
+		  dataF21.append("‡∏´‡∏ô‡∏≠‡∏ô‡∏Å‡∏≠‡∏™‡∏µ‡∏ä‡∏°‡∏û‡∏π|");
+		  dataF21.append("‡∏°‡πâ‡∏ß‡∏ô‡∏≠‡πâ‡∏≠‡∏¢|");
+		  dataF21.append("‡∏ï‡∏±‡πä‡∏Å‡∏Å‡∏£‡∏∞‡πÅ‡∏ï‡∏ô|");
+		  dataF21.append("‡∏ï‡∏±‡πä‡∏Å‡∏Å‡∏£‡∏∞‡∏ó‡∏≤‡∏¢");
+		  Field f21 = new Field("Note","‡πÅ‡∏°‡∏•‡∏á [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,21,dataF21.toString());
 		  result.add(f21);
 		  StringBuilder dataF22 =new StringBuilder();
 		  dataF22.append("back|");
@@ -100,74 +100,74 @@ public class FieldDAO {
 	}
 	
 	public ArrayList getFieldNote2(){
-		  //°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Èß∑’Ë1
+		  //‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà1
 		  ArrayList result = new ArrayList();
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
-		  Field f2 = new Field("Note","À¡“¬‡≈¢·ª≈ß","EditText",1,true,false,1,null);
+		  Field f2 = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á","EditText",1,true,false,1,null);
 		  result.add(f2);
-		  Field f3 = new Field("Note","«—π∑’Ëµ√«® Õ∫","Date",1,false,true,2,null);
+		  Field f3 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö","Date",1,false,true,2,null);
 		  result.add(f3);
-		  Field f4 = new Field("Note","‰∂‡ª‘¥ÀπÈ“¥‘π√—∫®”π«ππÈ”Ωπ[§√—Èß]","EditText",1,false,false,3,null);
+		  Field f4 = new Field("Note","‡πÑ‡∏ñ‡πÄ‡∏õ‡∏¥‡∏î‡∏´‡∏ô‡πâ‡∏≤‡∏î‡∏¥‡∏ô‡∏£‡∏±‡∏ö‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡∏ô‡πâ‡∏≥‡∏ù‡∏ô[‡∏Ñ‡∏£‡∏±‡πâ‡∏á]","EditText",1,false,false,3,null);
 		  result.add(f4);
-		  Field f5 = new Field("Note","‰∂¥–¥È«¬º“π","EditText",1,false,true,4,null);
+		  Field f5 = new Field("Note","‡πÑ‡∏ñ‡∏î‡∏∞‡∏î‡πâ‡∏ß‡∏¢‡∏ú‡∏≤‡∏ô","EditText",1,false,true,4,null);
 		  result.add(f5);	
-		  Field f6 = new Field("Note","‰∂æ√«πº“π","EditText",1,true,false,5,null);
+		  Field f6 = new Field("Note","‡πÑ‡∏ñ‡∏û‡∏£‡∏ß‡∏ô‡∏ú‡∏≤‡∏ô","EditText",1,true,false,5,null);
 		  result.add(f6);
-		  Field f7 = new Field("Note","¬°√ËÕß¥È«¬º“π","EditText",1,true,false,6,null);
+		  Field f7 = new Field("Note","‡∏¢‡∏Å‡∏£‡πà‡∏≠‡∏á‡∏î‡πâ‡∏ß‡∏¢‡∏ú‡∏≤‡∏ô","EditText",1,true,false,6,null);
 		  result.add(f7);
-		  Field f8 = new Field("Note","°“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬]","Spinner",1,true,false,7,null);
+		  Field f8 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢]","Spinner",1,true,false,7,null);
 		  result.add(f8);
-		  Field f9 = new Field("Note","¬’ËÀÈÕ","Spinner",1,true,false,8,null);
+		  Field f9 = new Field("Note","‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠","Spinner",1,true,false,8,null);
 		  result.add(f9);
-		  Field f10 = new Field("Note","Õ—µ√“°“√„ ËªÿÎ¬","EditText",1,true,false,9,null);
+		  Field f10 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å./‡πÑ‡∏£‡πà]","EditText",1,true,false,9,null);
 		  result.add(f10);		 
-		  Field f11 = new Field("Note","À¡“¬‡Àµÿ","TextArea",1,true,false,10,null);
+		  Field f11 = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏´‡∏ï‡∏∏","TextArea",1,true,false,10,null);
 		  result.add(f11);
-		  Field f12 = new Field("Note","™◊ËÕ- °ÿ≈™“«‰√Ë","EditText",1,true,false,12,null);
+		  Field f12 = new Field("Note","‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà","EditText",1,true,false,12,null);
 		  result.add(f12);
-		  Field f13 = new Field("Note","ª√–‡¿∑ÕÈÕ¬","EditText",1,true,false,13,null);
+		  Field f13 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,13,null);
 		  result.add(f13);
-		  Field f14 = new Field("Note"," ¿“ææ◊Èπ¥‘π","Spinner",1,true,true,14,null);
+		  Field f14 = new Field("Note","‡∏™‡∏†‡∏≤‡∏û‡∏û‡∏∑‡πâ‡∏ô‡∏î‡∏¥‡∏ô","Spinner",1,true,true,14,null);
 		  result.add(f14);
-		  Field f15 = new Field("Note","«—π∑’Ëª≈Ÿ°ÕÈÕ¬‡ √Á®","Date",1,true,true,15,null);
+		  Field f15 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏õ‡∏•‡∏π‡∏Å‡∏≠‡πâ‡∏≠‡∏¢‡πÄ‡∏™‡∏£‡πá‡∏à","Date",1,true,true,15,null);
 		  result.add(f15);
-		  Field f16 = new Field("Note","„™Èæ—π∏ÿÏÕÈÕ¬®“°ÕÈÕ¬","Spinner",1,true,false,16,null);
+		  Field f16 = new Field("Note","‡πÉ‡∏ä‡πâ‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢‡∏à‡∏≤‡∏Å‡∏≠‡πâ‡∏≠‡∏¢","Spinner",1,true,false,16,null);
 		  result.add(f16);
-		  Field f17 = new Field("Note","®”π«π[§√—Èß]","EditText",1,true,false,17,null);
+		  Field f17 = new Field("Note","‡∏à‡∏≥‡∏ô‡∏ß‡∏ô[‡∏Ñ‡∏£‡∏±‡πâ‡∏á]","EditText",1,true,false,17,null);
 		  result.add(f17);
-		  Field f18 = new Field("Note","®”π«π[§√—Èß]","EditText",1,true,false,18,null);
+		  Field f18 = new Field("Note","‡∏à‡∏≥‡∏ô‡∏ß‡∏ô[‡∏Ñ‡∏£‡∏±‡πâ‡∏á]","EditText",1,true,false,18,null);
 		  result.add(f18);
 		  
-		  Field f19 = new Field("Note"," Ÿß [´¡.]","EditText",1,true,false,18,null);
+		  Field f19 = new Field("Note","‡∏™‡∏π‡∏á [‡∏ã‡∏°.]","EditText",1,true,false,18,null);
 		  result.add(f19);
-		  Field f20 = new Field("Note","°“√°”®—¥«—™æ◊™","Spinner",1,true,false,18,null);
+		  Field f20 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä","Spinner",1,true,false,18,null);
 		  result.add(f20);
-		  Field f21 = new Field("Note","°“√„™È “√‡§¡’","Spinner",1,true,false,18,null);
+		  Field f21 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ","Spinner",1,true,false,18,null);
 		  result.add(f21);
-		  Field f22 = new Field("Note","Õ—µ√“„™È “√‡§¡’ [°.°./‰√Ë]","EditText",1,true,false,18,null);
+		  Field f22 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ [‡∏Å.‡∏Å./‡πÑ‡∏£‡πà]","EditText",1,true,false,18,null);
 		  result.add(f22);
-		  Field f23 = new Field("Note","®”π«π[§√—Èß]","EditText",1,true,false,18,null);
+		  Field f23 = new Field("Note","‡∏à‡∏≥‡∏ô‡∏ß‡∏ô[‡∏Ñ‡∏£‡∏±‡πâ‡∏á]","EditText",1,true,false,18,null);
 		  result.add(f23);
-		  Field f24 = new Field("Note","æ—π∏ÿÏÕÈÕ¬","Spinner",1,true,true,18,null);
+		  Field f24 = new Field("Note","‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢","Spinner",1,true,true,18,null);
 		  result.add(f24);
-		  Field f25 = new Field("Note","≈—°…≥–‡π◊ÈÕ¥‘π","Spinner",1,true,true,18,null);
+		  Field f25 = new Field("Note","‡∏•‡∏±‡∏Å‡∏©‡∏ì‡∏∞‡πÄ‡∏ô‡∏∑‡πâ‡∏≠‡∏î‡∏¥‡∏ô","Spinner",1,true,true,18,null);
 		  result.add(f25);
-		  Field f26 = new Field("Note","§«“¡™◊Èπ„π¥‘π","Spinner",1,true,false,18,null);
+		  Field f26 = new Field("Note","‡∏Ñ‡∏ß‡∏≤‡∏°‡∏ä‡∏∑‡πâ‡∏ô‡πÉ‡∏ô‡∏î‡∏¥‡∏ô","Spinner",1,true,false,18,null);
 		  result.add(f26);
-		  Field f27 = new Field("Note","°“√„ÀÈπÈ”","Spinner",1,true,false,18,null);
+		  Field f27 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","Spinner",1,true,false,18,null);
 		  result.add(f27);
-		  Field f28 = new Field("Note","≈÷°[´¡.]","EditText",1,true,false,18,null);
+		  Field f28 = new Field("Note","‡∏•‡∏∂‡∏Å[‡∏ã‡∏°.]","EditText",1,true,false,18,null);
 		  result.add(f28);
-		  Field f29 = new Field("Note","≈÷°[´¡.]","EditText",1,true,false,18,null);
+		  Field f29 = new Field("Note","‡∏•‡∏∂‡∏Å[‡∏ã‡∏°.]","EditText",1,true,false,18,null);
 		  result.add(f29);
-		  Field f30 = new Field("Note","√–¬–√ËÕß[‡¡µ√]","EditText",1,true,true,18,null);
+		  Field f30 = new Field("Note","‡∏£‡∏∞‡∏¢‡∏∞‡∏£‡πà‡∏≠‡∏á[‡πÄ‡∏°‡∏ï‡∏£]","EditText",1,true,true,18,null);
 		  result.add(f30);
-		  Field f31 = new Field("Note","°“√ª≈Ÿ°","Spinner",1,true,true,18,null);
+		  Field f31 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏õ‡∏•‡∏π‡∏Å","Spinner",1,true,true,18,null);
 		  result.add(f31);
-		  Field f32 = new Field("Note","«“ß∑ËÕπæ—π∏ÿÏ·∫∫","Spinner",1,true,false,18,null);
+		  Field f32 = new Field("Note","‡∏ß‡∏≤‡∏á‡∏ó‡πà‡∏≠‡∏ô‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡πÅ‡∏ö‡∏ö","Spinner",1,true,false,18,null);
 		  result.add(f32);
-		  Field f33 = new Field("Note","√–¬–ÀË“ß[´¡.]","EditText",1,true,false,18,null);
+		  Field f33 = new Field("Note","‡∏£‡∏∞‡∏¢‡∏∞‡∏´‡πà‡∏≤‡∏á[‡∏ã‡∏°.]","EditText",1,true,false,18,null);
 		  result.add(f33);
 		  
 		  StringBuilder dataF34 =new StringBuilder();
@@ -180,84 +180,84 @@ public class FieldDAO {
 		  return result;		
 	}
 	public ArrayList getFieldNote3(){
-		  //°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Èß∑’Ë2
+		  //‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà2
 		  ArrayList result = new ArrayList();
 	  
-//		  ‡≈¢∑’Ë‚§«µÈ“
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+//		  ‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
-//		  À¡“¬‡≈¢·ª≈ß
-		  Field f2 = new Field("Note","À¡“¬‡≈¢·ª≈ß","EditText",1,true,false,0,null);
+//		  ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á
+		  Field f2 = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á","EditText",1,true,false,0,null);
 		  result.add(f2);
-//		  «—π∑’Ëµ√«® Õ∫*
-		  Field f3 = new Field("Note","«—π∑’Ëµ√«® Õ∫","Date",1,true,true,0,null);
+//		  ‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö*
+		  Field f3 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö","Date",1,true,true,0,null);
 		  result.add(f3);
-//		  °“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬] *
-		  Field f4 = new Field("Note","°“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬]","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢] *
+		  Field f4 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢]","Spinner",1,true,true,0,null);
 		  result.add(f4);
-//		  ¬’ËÀÈÕ *
-		  Field f5 = new Field("Note","¬’ËÀÈÕ","Spinner",1,true,true,0,null);
+//		  ‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠ *
+		  Field f5 = new Field("Note","‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠","Spinner",1,true,true,0,null);
 		  result.add(f5);
-//		  Õ—µ√“°“√„ ËªÿÎ¬ [°.°. / ‰√Ë] *
-		  Field f6 = new Field("Note","Õ—µ√“°“√„ ËªÿÎ¬ [°.°./‰√Ë]","EditText",1,false,true,0,null);
+//		  ‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å. / ‡πÑ‡∏£‡πà] *
+		  Field f6 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å./‡πÑ‡∏£‡πà]","EditText",1,false,true,0,null);
 		  result.add(f6);
-//		  °“√„ÀÈπÈ” *
-		  Field f7 = new Field("Note","°“√„ÀÈπÈ”","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥ *
+		  Field f7 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","Spinner",1,true,true,0,null);
 		  result.add(f7);
-//		  °“√ßÕ° *
-		  Field f8 = new Field("Note","°“√ßÕ°","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡∏á‡∏≠‡∏Å *
+		  Field f8 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏á‡∏≠‡∏Å","Spinner",1,true,true,0,null);
 		  result.add(f8);
-//		  °“√„™È«’·π   *
-		  Field f9 = new Field("Note","°“√„™È«’·π ","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™  *
+		  Field f9 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™","Spinner",1,true,true,0,null);
 		  result.add(f9);
-//		  °“√„™È«’·π  [§‘« / ‰√Ë]  *
-		  Field f10 = new Field("Note","°“√„™È«’·π  ","EditText",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß / ‡πÑ‡∏£‡πà]  *
+		  Field f10 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß / ‡πÑ‡∏£‡πà] ","EditText",1,true,true,0,null);
 		  result.add(f10);
-//		  ™◊ËÕ- °ÿ≈™“«‰√ËÕÈÕ¬
-		  Field f11 = new Field("Note","™◊ËÕ- °ÿ≈™“«‰√ËÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f11 = new Field("Note","‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f11);
-//		  ª√–‡¿∑ÕÈÕ¬
-		  Field f12 = new Field("Note","ª√–‡¿∑ÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f12 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f12);
-//		  æ—π∏ÿÏÕÈÕ¬
-		  Field f13 = new Field("Note","æ—π∏ÿÏÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f13 = new Field("Note","‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f13);
-		  //‚√§ [√–∫ÿ]
+		  //‡πÇ‡∏£‡∏Ñ [‡∏£‡∏∞‡∏ö‡∏∏]
 		  StringBuilder dataF14 =new StringBuilder();
-		  dataF14.append("‚√§1|");
-		  dataF14.append("‚√§2|");
-		  dataF14.append("‚√§3|");
-		  dataF14.append("‚√§4|");
-		  dataF14.append("‚√§5|");
-		  dataF14.append("‚√§6|");
-		  dataF14.append("‚√§7");
-		  Field f14 = new Field("Note","‚√§ [√–∫ÿ]","CheckBox",1,true,false,0,dataF14.toString());
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ1|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ2|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ3|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ4|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ5|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ6|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ7");
+		  Field f14 = new Field("Note","‡πÇ‡∏£‡∏Ñ [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,0,dataF14.toString());
 		  result.add(f14);
-		  //·¡≈ß [√–∫ÿ]
+		  //‡πÅ‡∏°‡∏•‡∏á [‡∏£‡∏∞‡∏ö‡∏∏]
 		  StringBuilder dataF15 =new StringBuilder();
-		  dataF15.append("·¡≈ß1|");
-		  dataF15.append("·¡≈ß2|");
-		  dataF15.append("·¡≈ß3|");
-		  dataF15.append("·¡≈ß4|");
-		  dataF15.append("·¡≈ß5|");
-		  dataF15.append("·¡≈ß6|");
-		  dataF15.append("·¡≈ß7");
-		  Field f15 = new Field("Note","·¡≈ß [√–∫ÿ]","CheckBox",1,true,false,0,dataF15.toString());
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á1|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á2|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á3|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á4|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á5|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á6|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á7");
+		  Field f15 = new Field("Note","‡πÅ‡∏°‡∏•‡∏á [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,0,dataF15.toString());
 		  result.add(f15);
-          //°“√°”®—¥«—™æ◊™
+          //‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä
 		  StringBuilder dataF16 =new StringBuilder();
-		  dataF16.append("¬—ß‰¡Ë°”®—¥|");
-		  dataF16.append("„™È‡§√◊ËÕß®—°√°≈|");
-		  dataF16.append("„™È·√ßß“π§π|");
-		  dataF16.append("„™È “√‡§¡’");
-		  Field f16 = new Field("Note","°“√°”®—¥«—™æ◊™","CheckBox",1,true,false,0,dataF16.toString());
+		  dataF16.append("‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡∏Å‡∏≥‡∏à‡∏±‡∏î|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡πÄ‡∏Ñ‡∏£‡∏∑‡πà‡∏≠‡∏á‡∏à‡∏±‡∏Å‡∏£‡∏Å‡∏•|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡πÅ‡∏£‡∏á‡∏á‡∏≤‡∏ô‡∏Ñ‡∏ô|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ");
+		  Field f16 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä","CheckBox",1,true,false,0,dataF16.toString());
 		  result.add(f16);
-//		  ¬—ß‰¡Ë°”®—¥
-//		  „™È‡§√◊ËÕß®—°√°≈
-//		  „™È·√ßß“π§π
-//		  „™È “√‡§¡’
-	//	  °√≥’„™È “√‡§¡’„π°“√°”®—¥«—™æ◊™[√–∫ÿ]
-		  Field f17 = new Field("Note","°√≥’„™È “√‡§¡’„π\n°“√°”®—¥«—™æ◊™","Spinner",1,true,false,0,null);
+//		  ‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡∏Å‡∏≥‡∏à‡∏±‡∏î
+//		  ‡πÉ‡∏ä‡πâ‡πÄ‡∏Ñ‡∏£‡∏∑‡πà‡∏≠‡∏á‡∏à‡∏±‡∏Å‡∏£‡∏Å‡∏•
+//		  ‡πÉ‡∏ä‡πâ‡πÅ‡∏£‡∏á‡∏á‡∏≤‡∏ô‡∏Ñ‡∏ô
+//		  ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ
+	//	  ‡∏Å‡∏£‡∏ì‡∏µ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ‡πÉ‡∏ô‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä[‡∏£‡∏∞‡∏ö‡∏∏]
+		  Field f17 = new Field("Note","‡∏Å‡∏£‡∏ì‡∏µ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ‡πÉ‡∏ô‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä[‡∏£‡∏∞‡∏ö‡∏∏]","Spinner",1,true,false,0,null);
 		  result.add(f17);
 		  // 
 
@@ -271,59 +271,59 @@ public class FieldDAO {
 	}
 	
 	public ArrayList getFieldNote4(){
-	    //	°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë1
+	    //	‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà1
 		  ArrayList result = new ArrayList();
 
 		  
 		  
-//		  ‡≈¢∑’Ë‚§«µÈ“
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+//		  ‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
-//		  À¡“¬‡≈¢·ª≈ß
-		  Field f2 = new Field("Note","À¡“¬‡≈¢·ª≈ß","EditText",1,true,false,0,null);
+//		  ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á
+		  Field f2 = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á","EditText",1,true,false,0,null);
 		  result.add(f2);
-//		  «—π∑’Ëµ√«® Õ∫*
-		  Field f3 = new Field("Note","«—π∑’Ëµ√«® Õ∫","Date",1,true,true,0,null);
+//		  ‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö*
+		  Field f3 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö","Date",1,true,true,0,null);
 		  result.add(f3);
-//		  °“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬] *
-		  Field f4 = new Field("Note","°“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬]","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢] *
+		  Field f4 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢]","Spinner",1,true,true,0,null);
 		  result.add(f4);
-//		  ¬’ËÀÈÕ *
-		  Field f5 = new Field("Note","¬’ËÀÈÕ","Spinner",1,true,true,0,null);
+//		  ‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠ *
+		  Field f5 = new Field("Note","‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠","Spinner",1,true,true,0,null);
 		  result.add(f5);
-//		  Õ—µ√“°“√„ ËªÿÎ¬ [°.°. / ‰√Ë] *
-		  Field f6 = new Field("Note","Õ—µ√“°“√„ ËªÿÎ¬ [°.°./‰√Ë]","EditText",1,true,true,0,null);
+//		  ‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å. / ‡πÑ‡∏£‡πà] *
+		  Field f6 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å./‡πÑ‡∏£‡πà]","EditText",1,true,true,0,null);
 		  result.add(f6);
-//		  ™◊ËÕ- °ÿ≈™“«‰√Ë
-		  Field f7 = new Field("Note","™◊ËÕ- °ÿ≈™“«‰√Ë","EditText",1,true,false,0,null);
+//		  ‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà
+		  Field f7 = new Field("Note","‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà","EditText",1,true,false,0,null);
 		  result.add(f7);
-//		  ª√–‡¿∑ÕÈÕ¬
-		  Field f8 = new Field("Note","ª√–‡¿∑ÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f8 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f8);
-//		  °“√‡®’¬πµÕ  *
-		  Field f9 = new Field("Note","°“√‡®’¬πµÕ","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÄ‡∏à‡∏µ‡∏¢‡∏ô‡∏ï‡∏≠  *
+		  Field f9 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÄ‡∏à‡∏µ‡∏¢‡∏ô‡∏ï‡∏≠","Spinner",1,true,true,0,null);
 		  result.add(f9);
-//		  °“√æ√«π¥‘π  *
-		  Field f10 = new Field("Note","°“√æ√«π¥‘π","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡∏û‡∏£‡∏ß‡∏ô‡∏î‡∏¥‡∏ô  *
+		  Field f10 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏û‡∏£‡∏ß‡∏ô‡∏î‡∏¥‡∏ô","Spinner",1,true,true,0,null);
 		  result.add(f10);
-//		  °“√°”®—¥«—™æ◊™  *
-		  Field f11 = new Field("Note","°“√°”®—¥«—™æ◊™","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä  *
+		  Field f11 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä","Spinner",1,true,true,0,null);
 		  result.add(f11);
-//		  æ—π∏ÿÏÕÈÕ¬
-		  Field f12 = new Field("Note","æ—π∏ÿÏÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f12 = new Field("Note","‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f12);
-//		  °“√„ÀÈπÈ”  *
-		  Field f13 = new Field("Note","°“√„ÀÈπÈ”","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥  *
+		  Field f13 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","Spinner",1,true,true,0,null);
 		  result.add(f13);
-//		  °“√„ÀÈ«’·π   *
-		  Field f14 = new Field("Note","°“√„ÀÈ«’·π ","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™  *
+		  Field f14 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™","Spinner",1,true,true,0,null);
 		  result.add(f14);
-//		  °“√„™È«’·π  [§‘« / ‰√Ë]  *
-		  Field f15 = new Field("Note","°“√„™È«’·π  [§‘« /‰√Ë]","EditText",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß / ‡πÑ‡∏£‡πà]  *
+		  Field f15 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß /‡πÑ‡∏£‡πà]","EditText",1,true,true,0,null);
 		  result.add(f15);
-//		 À¡“¬‡Àµÿ  *
-		  Field f1ÿ = new Field("Note","À¡“¬‡Àµÿ","TextArea",1,true,true,0,null);
-		  result.add(f1ÿ);
+//		 ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏´‡∏ï‡∏∏  *
+		  Field f1‡∏∏ = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏´‡∏ï‡∏∏","TextArea",1,true,true,0,null);
+		  result.add(f1‡∏∏);
 		  StringBuilder dataF34 =new StringBuilder();
 		  dataF34.append("back|");
 		  dataF34.append("save|");
@@ -335,84 +335,84 @@ public class FieldDAO {
 	}
 
 	public ArrayList getFieldNote5(){
-		//°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë2
+		//‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà2
 		  ArrayList result = new ArrayList();
 		  
-//		  ‡≈¢∑’Ë‚§«µÈ“
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+//		  ‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
-//		  À¡“¬‡≈¢·ª≈ß
-		  Field f2 = new Field("Note","À¡“¬‡≈¢·ª≈ß","EditText",1,true,false,0,null);
+//		  ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á
+		  Field f2 = new Field("Note","‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á","EditText",1,true,false,0,null);
 		  result.add(f2);
-//		  «—π∑’Ëµ√«® Õ∫*
-		  Field f3 = new Field("Note","«—π∑’Ëµ√«® Õ∫","Date",1,true,true,0,null);
+//		  ‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö*
+		  Field f3 = new Field("Note","‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö","Date",1,true,true,0,null);
 		  result.add(f3);
-//		  °“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬] *
-		  Field f4 = new Field("Note","°“√„ ËªÿÎ¬ [ Ÿµ√ªÿÎ¬]","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢] *
+		  Field f4 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏™‡∏π‡∏ï‡∏£‡∏õ‡∏∏‡πã‡∏¢]","Spinner",1,true,true,0,null);
 		  result.add(f4);
-//		  ¬’ËÀÈÕ *
-		  Field f5 = new Field("Note","¬’ËÀÈÕ","Spinner",1,true,true,0,null);
+//		  ‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠ *
+		  Field f5 = new Field("Note","‡∏¢‡∏µ‡πà‡∏´‡πâ‡∏≠","Spinner",1,true,true,0,null);
 		  result.add(f5);
-//		  Õ—µ√“°“√„ ËªÿÎ¬ [°.°. / ‰√Ë] *
-		  Field f6 = new Field("Note","Õ—µ√“°“√„ ËªÿÎ¬ [°.°./‰√Ë]","EditText",1,false,true,0,null);
+//		  ‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å. / ‡πÑ‡∏£‡πà] *
+		  Field f6 = new Field("Note","‡∏≠‡∏±‡∏ï‡∏£‡∏≤‡∏Å‡∏≤‡∏£‡πÉ‡∏™‡πà‡∏õ‡∏∏‡πã‡∏¢ [‡∏Å.‡∏Å./‡πÑ‡∏£‡πà]","EditText",1,false,true,0,null);
 		  result.add(f6);
-//		  °“√„ÀÈπÈ” *
-		  Field f7 = new Field("Note","°“√„ÀÈπÈ”","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥ *
+		  Field f7 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏´‡πâ‡∏ô‡πâ‡∏≥","Spinner",1,true,true,0,null);
 		  result.add(f7);
-//		  °“√ßÕ° *
-		  Field f8 = new Field("Note","°“√ßÕ°","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡∏á‡∏≠‡∏Å *
+		  Field f8 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏á‡∏≠‡∏Å","Spinner",1,true,true,0,null);
 		  result.add(f8);
-//		  °“√„™È«’·π   *
-		  Field f9 = new Field("Note","°“√„™È«’·π ","Spinner",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™  *
+		  Field f9 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™","Spinner",1,true,true,0,null);
 		  result.add(f9);
-//		  °“√„™È«’·π  [§‘« / ‰√Ë]  *
-		  Field f10 = new Field("Note","°“√„™È«’·π  [§‘« / ‰√Ë] ","EditText",1,true,true,0,null);
+//		  ‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß / ‡πÑ‡∏£‡πà]  *
+		  Field f10 = new Field("Note","‡∏Å‡∏≤‡∏£‡πÉ‡∏ä‡πâ‡∏ß‡∏µ‡πÅ‡∏ô‡∏™ [‡∏Ñ‡∏¥‡∏ß / ‡πÑ‡∏£‡πà] ","EditText",1,true,true,0,null);
 		  result.add(f10);
-//		  ™◊ËÕ- °ÿ≈™“«‰√ËÕÈÕ¬
-		  Field f11 = new Field("Note","™◊ËÕ- °ÿ≈™“«‰√ËÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f11 = new Field("Note","‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f11);
-//		  ª√–‡¿∑ÕÈÕ¬
-		  Field f12 = new Field("Note","ª√–‡¿∑ÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f12 = new Field("Note","‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f12);
-//		  æ—π∏ÿÏÕÈÕ¬
-		  Field f13 = new Field("Note","æ—π∏ÿÏÕÈÕ¬","EditText",1,true,false,0,null);
+//		  ‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢
+		  Field f13 = new Field("Note","‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢","EditText",1,true,false,0,null);
 		  result.add(f13);
-		  //‚√§ [√–∫ÿ]
+		  //‡πÇ‡∏£‡∏Ñ [‡∏£‡∏∞‡∏ö‡∏∏]
 		  StringBuilder dataF14 =new StringBuilder();
-		  dataF14.append("‚√§1|");
-		  dataF14.append("‚√§2|");
-		  dataF14.append("‚√§3|");
-		  dataF14.append("‚√§4|");
-		  dataF14.append("‚√§5|");
-		  dataF14.append("‚√§6|");
-		  dataF14.append("‚√§7");
-		  Field f14 = new Field("Note","‚√§ [√–∫ÿ]","CheckBox",1,true,false,0,dataF14.toString());
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ1|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ2|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ3|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ4|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ5|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ6|");
+		  dataF14.append("‡πÇ‡∏£‡∏Ñ7");
+		  Field f14 = new Field("Note","‡πÇ‡∏£‡∏Ñ [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,0,dataF14.toString());
 		  result.add(f14);
-		  //·¡≈ß [√–∫ÿ]
+		  //‡πÅ‡∏°‡∏•‡∏á [‡∏£‡∏∞‡∏ö‡∏∏]
 		  StringBuilder dataF15 =new StringBuilder();
-		  dataF15.append("·¡≈ß1|");
-		  dataF15.append("·¡≈ß2|");
-		  dataF15.append("·¡≈ß3|");
-		  dataF15.append("·¡≈ß4|");
-		  dataF15.append("·¡≈ß5|");
-		  dataF15.append("·¡≈ß6|");
-		  dataF15.append("·¡≈ß7");
-		  Field f15 = new Field("Note","·¡≈ß [√–∫ÿ]","CheckBox",1,true,false,0,dataF15.toString());
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á1|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á2|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á3|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á4|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á5|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á6|");
+		  dataF15.append("‡πÅ‡∏°‡∏•‡∏á7");
+		  Field f15 = new Field("Note","‡πÅ‡∏°‡∏•‡∏á [‡∏£‡∏∞‡∏ö‡∏∏]","CheckBox",1,true,false,0,dataF15.toString());
 		  result.add(f15);
-          //°“√°”®—¥«—™æ◊™
+          //‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä
 		  StringBuilder dataF16 =new StringBuilder();
-		  dataF16.append("¬—ß‰¡Ë°”®—¥|");
-		  dataF16.append("„™È‡§√◊ËÕß®—°√°≈|");
-		  dataF16.append("„™È·√ßß“π§π|");
-		  dataF16.append("„™È “√‡§¡’");
-		  Field f16 = new Field("Note","°“√°”®—¥«—™æ◊™","CheckBox",1,true,false,0,dataF16.toString());
+		  dataF16.append("‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡∏Å‡∏≥‡∏à‡∏±‡∏î|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡πÄ‡∏Ñ‡∏£‡∏∑‡πà‡∏≠‡∏á‡∏à‡∏±‡∏Å‡∏£‡∏Å‡∏•|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡πÅ‡∏£‡∏á‡∏á‡∏≤‡∏ô‡∏Ñ‡∏ô|");
+		  dataF16.append("‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ");
+		  Field f16 = new Field("Note","‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä","CheckBox",1,true,false,0,dataF16.toString());
 		  result.add(f16);
-//		  ¬—ß‰¡Ë°”®—¥
-//		  „™È‡§√◊ËÕß®—°√°≈
-//		  „™È·√ßß“π§π
-//		  „™È “√‡§¡’
-	//	  °√≥’„™È “√‡§¡’„π°“√°”®—¥«—™æ◊™[√–∫ÿ]
-		  Field f17 = new Field("Note","°√≥’„™È “√‡§¡’„π°“√°”®—¥«—™æ◊™[√–∫ÿ]","Spinner",1,true,false,0,null);
+//		  ‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡∏Å‡∏≥‡∏à‡∏±‡∏î
+//		  ‡πÉ‡∏ä‡πâ‡πÄ‡∏Ñ‡∏£‡∏∑‡πà‡∏≠‡∏á‡∏à‡∏±‡∏Å‡∏£‡∏Å‡∏•
+//		  ‡πÉ‡∏ä‡πâ‡πÅ‡∏£‡∏á‡∏á‡∏≤‡∏ô‡∏Ñ‡∏ô
+//		  ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ
+	//	  ‡∏Å‡∏£‡∏ì‡∏µ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ‡πÉ‡∏ô‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä[‡∏£‡∏∞‡∏ö‡∏∏]
+		  Field f17 = new Field("Note","‡∏Å‡∏£‡∏ì‡∏µ‡πÉ‡∏ä‡πâ‡∏™‡∏≤‡∏£‡πÄ‡∏Ñ‡∏°‡∏µ‡πÉ‡∏ô‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏à‡∏±‡∏î‡∏ß‡∏±‡∏ä‡∏û‡∏∑‡∏ä[‡∏£‡∏∞‡∏ö‡∏∏]","Spinner",1,true,false,0,null);
 		  result.add(f17);
 		  // 
 
@@ -427,19 +427,19 @@ public class FieldDAO {
 	}
 	
 	public ArrayList getFieldNote6(){
-		//°“√«—¥°“√‡®√‘≠‡µ‘∫‚µÕÈÕ¬
+		//‡∏Å‡∏≤‡∏£‡∏ß‡∏±‡∏î‡∏Å‡∏≤‡∏£‡πÄ‡∏à‡∏£‡∏¥‡∏ç‡πÄ‡∏ï‡∏¥‡∏ö‡πÇ‡∏ï‡∏≠‡πâ‡∏≠‡∏¢
 		  ArrayList result = new ArrayList();
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
 		  
-//		  ‡≈¢∑’Ë‚§«µÈ“
-//		  À¡“¬‡≈¢·ª≈ß
-//		  «—π∑’Ëµ√«® Õ∫*
-//		  √–¬–√ËÕß[‡¡µ√] *                                             
-//		  À¡“¬‡Àµÿ
-//		  ™◊ËÕ- °ÿ≈™“«‰√Ë
-//		  ª√–‡¿∑ÕÈÕ¬
-//		  æ—π∏ÿÏÕÈÕ¬
+//		  ‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤
+//		  ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡πÅ‡∏õ‡∏•‡∏á
+//		  ‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö*
+//		  ‡∏£‡∏∞‡∏¢‡∏∞‡∏£‡πà‡∏≠‡∏á[‡πÄ‡∏°‡∏ï‡∏£] *                                             
+//		  ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏´‡∏ï‡∏∏
+//		  ‡∏ä‡∏∑‡πà‡∏≠-‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà
+//		  ‡∏õ‡∏£‡∏∞‡πÄ‡∏†‡∏ó‡∏≠‡πâ‡∏≠‡∏¢
+//		  ‡∏û‡∏±‡∏ô‡∏ò‡∏∏‡πå‡∏≠‡πâ‡∏≠‡∏¢
 
 
 		  
@@ -448,9 +448,9 @@ public class FieldDAO {
 	}
 	
 	public ArrayList getFieldNote7(){
-		//°“√ª√–‡¡‘πº≈º≈‘µÕÈÕ¬§√—Èß∑’Ë1
+		//‡∏Å‡∏≤‡∏£‡∏õ‡∏£‡∏∞‡πÄ‡∏°‡∏¥‡∏ô‡∏ú‡∏•‡∏ú‡∏•‡∏¥‡∏ï‡∏≠‡πâ‡∏≠‡∏¢‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà1
 		  ArrayList result = new ArrayList();
-		  Field f1 = new Field("Note","‡≈¢∑’Ë‚§«µÈ“","EditText",1,true,false,0,null);
+		  Field f1 = new Field("Note","‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà‡πÇ‡∏Ñ‡∏ß‡∏ï‡πâ‡∏≤","EditText",1,true,false,0,null);
 		  result.add(f1);
 		  return result;
 	}

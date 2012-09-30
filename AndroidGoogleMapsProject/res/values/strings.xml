@@ -29,13 +29,14 @@
     <string name="save_note_cane">บันทึกไร่อ้อย</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="app_name_menu_activity">กิจกรรม</string>
-     <string name="app_name_note_1">บันทึกข้อมูล</string>
-     <string name="app_name_note_2">กิจกรรมอ้อยปลูกใหม่ครั่งที่1</string>
-     <string name="app_name_note_3">กิจกรรมอ้อยปลูกใหม่ครั้งที่2</string>
-     <string name="app_name_note_4">กิจกรรมอ้อยตอครั้งที่1</string>
-     <string name="app_name_note_5">กิจกรรมอ้อยตอครั้งที่2</string>
-     <string name="app_name_note_6">การวัดการเจริญเติบโตอ้อย</string>
+    <string name="app_name_note_1">บันทึกข้อมูล</string>
+    <string name="app_name_note_2">กิจกรรมอ้อยปลูกใหม่ครั่งที่1</string>
+    <string name="app_name_note_3">กิจกรรมอ้อยปลูกใหม่ครั้งที่2</string>
+    <string name="app_name_note_4">กิจกรรมอ้อยตอครั้งที่1</string>
+    <string name="app_name_note_5">กิจกรรมอ้อยตอครั้งที่2</string>
+    <string name="app_name_note_6">การวัดการเจริญเติบโตอ้อย</string>
     <string name="title_activity_cane_tor1">CaneTor1Activity</string>
     <string name="title_activity_cane_tor2">app_name_note_4</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>
