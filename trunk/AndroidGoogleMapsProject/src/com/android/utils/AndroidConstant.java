@@ -6,4 +6,5 @@ public class AndroidConstant {
 	public static String MODE = "mode";
 	public static String TAGGING = "tagging";
 	public static String LOAD_PLANG_POLYGON = "loadPlangPolygon";
+	public static int LABEL_PERCEN_WIDTH =30 ;
 }

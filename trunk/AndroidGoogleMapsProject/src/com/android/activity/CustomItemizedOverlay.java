@@ -12,7 +12,6 @@ import com.google.android.maps.ItemizedOverlay;
 import com.google.android.maps.OverlayItem;
 
 public class CustomItemizedOverlay extends ItemizedOverlay<OverlayItem> {
-	private long systemTime = System.currentTimeMillis();
 	
 	private ArrayList<OverlayItem> mapOverlays = new ArrayList<OverlayItem>();
 	
@@ -52,7 +51,7 @@ public class CustomItemizedOverlay extends ItemizedOverlay<OverlayItem> {
 		alertDialogBuilder
 				.setMessage(item.getSnippet())
 				.setCancelable(false)
-				.setPositiveButton("��������´",
+				.setPositiveButton("บันทึกข้อมูลชาวไร่´",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog,
 									int id) {
@@ -63,7 +62,7 @@ public class CustomItemizedOverlay extends ItemizedOverlay<OverlayItem> {
 								dialog.dismiss();
 							}
 						})
-				.setNegativeButton("�Դ",
+				.setNegativeButton("ปิดหน้าจอ",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog,
 									int id) {

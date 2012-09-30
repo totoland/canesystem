@@ -1,5 +1,7 @@
 package com.nu.activity;
 
+import com.android.activity.TestActivity;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +12,8 @@ import android.view.View;
 
 public class MenuListActivity extends ListActivity {
 
-	static final String[] MEMU_LIST = new String[] { "∫—π∑÷°¢ÈÕ¡Ÿ≈ÕÈÕ¬", "°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Ëß∑’Ë1",
-			"°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Ëß∑’Ë2", "°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë1" ,"°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë2"};
+	static final String[] MEMU_LIST = new String[] { "‡∏ö‡∏±‡∏ô‡∏ó‡∏∂‡∏Å‡∏Ç‡πâ‡∏≠‡∏°‡∏π‡∏•‡∏≠‡πâ‡∏≠‡∏¢", "‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πà‡∏á‡∏ó‡∏µ‡πà1",
+			"‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πà‡∏á‡∏ó‡∏µ‡πà2", "‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà1" ,"‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà2"};
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -32,20 +34,20 @@ public class MenuListActivity extends ListActivity {
 //		Toast.makeText(this, selectedValue, Toast.LENGTH_SHORT).show();
 		String[] values;
 		String s = MEMU_LIST[position];
-		if (s.equals("∫—π∑÷°¢ÈÕ¡Ÿ≈ÕÈÕ¬")) {
-            Intent myIntent = new Intent(v.getContext(), Note1Activity.class);
-            startActivityForResult(myIntent, 0);	
-		}else if (s.equals("°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Ëß∑’Ë1")) {
-            Intent myIntent = new Intent(v.getContext(), Note2Activity.class);
-            startActivityForResult(myIntent, 0);		
-		}else if (s.equals("°‘®°√√¡ÕÈÕ¬ª≈Ÿ°„À¡Ë§√—Ëß∑’Ë2")) {		
-            Intent myIntent = new Intent(v.getContext(), Note3Activity.class);
+		if (s.equals("‡∏ö‡∏±‡∏ô‡∏ó‡∏∂‡∏Å‡∏Ç‡πâ‡∏≠‡∏°‡∏π‡∏•‡∏≠‡πâ‡∏≠‡∏¢")) {
+//            Intent myIntent = new Intent(v.getContext(), Note1Activity.class);
+//            startActivityForResult(myIntent, 0);	
+		}else if (s.equals("‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πà‡∏á‡∏ó‡∏µ‡πà1")) {
+//            Intent myIntent = new Intent(v.getContext(), Note2Activity.class);
+//            startActivityForResult(myIntent, 0);		
+		}else if (s.equals("‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏õ‡∏•‡∏π‡∏Å‡πÉ‡∏´‡∏°‡πà‡∏Ñ‡∏£‡∏±‡πà‡∏á‡∏ó‡∏µ‡πà2")) {		
+            Intent myIntent = new Intent(v.getContext(), TestActivity.class);
             startActivityForResult(myIntent, 0);
-		}else if (s.equals("°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë1")) {		
-            Intent myIntent = new Intent(v.getContext(), Note3Activity.class);
+		}else if (s.equals("‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà1")) {		
+            Intent myIntent = new Intent(v.getContext(), Note4Activity.class);
             startActivityForResult(myIntent, 0);
-		}else if (s.equals("°‘®°√√¡ÕÈÕ¬µÕ§√—Èß∑’Ë2")) {		
-            Intent myIntent = new Intent(v.getContext(), Note3Activity.class);
+		}else if (s.equals("‡∏Å‡∏¥‡∏à‡∏Å‡∏£‡∏£‡∏°‡∏≠‡πâ‡∏≠‡∏¢‡∏ï‡∏≠‡∏Ñ‡∏£‡∏±‡πâ‡∏á‡∏ó‡∏µ‡πà2")) {		
+            Intent myIntent = new Intent(v.getContext(), Note5Activity.class);
             startActivityForResult(myIntent, 0);
 		}
 		

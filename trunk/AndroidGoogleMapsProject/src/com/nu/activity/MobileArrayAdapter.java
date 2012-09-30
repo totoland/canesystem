@@ -3,6 +3,7 @@ package com.nu.activity;
 import com.android.activity.R;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,6 +26,12 @@ public class MobileArrayAdapter extends ArrayAdapter<String> {
 		LayoutInflater inflater = (LayoutInflater) context
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		View rowView = inflater.inflate(R.layout.list_menu_report, parent, false);
+		if(position%2==0){
+			rowView.setBackgroundResource(R.drawable.bg_row1);
+		}
+		else{
+			rowView.setBackgroundResource(R.drawable.bg_row2);
+		}
 		TextView textView = (TextView) rowView.findViewById(R.id.label);
 		ImageView imageView = (ImageView) rowView.findViewById(R.id.logo);
 		textView.setText(values[position]);

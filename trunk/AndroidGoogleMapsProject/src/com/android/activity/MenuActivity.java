@@ -1,10 +1,14 @@
 package com.android.activity;
 
+import com.android.gen.formgenerator.FormActivity;
 import com.android.utils.AndroidConstant;
 import com.nu.activity.MenuListActivity;
+import com.nu.activity.Note1Activity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +16,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MenuActivity extends Activity {
+public class MenuActivity extends FormActivity {
 	
 	private Button btnMenu1;
 	private Button btnMenu2;
@@ -49,7 +53,7 @@ public class MenuActivity extends Activity {
                 startActivityForResult(myIntent, 0);
  			}
  		});
- 		//��§ҹἹ���
+ 		//��§ҹἹ���
 		btnMenu3 = (Button) findViewById(R.id.btnMenu3);
 		btnMenu3.setOnClickListener(new OnClickListener() {
  			public void onClick(View v) {
@@ -92,5 +96,23 @@ public class MenuActivity extends Activity {
 		diag.setContentView(txt);
 		diag.show();
 	}
+	@Override
+	public void onBackPressed() {
+	    new AlertDialog.Builder(this)
+	        .setIcon(android.R.drawable.ic_dialog_alert)
+	        .setTitle("แจ้งเตือน!!")
+	        .setMessage("คุณต้องการออกจากระบบ?")
+	        .setPositiveButton("ออกจากระบบ", new DialogInterface.OnClickListener()
+	    {
+	        public void onClick(DialogInterface dialog, int which) {
+	        	finish();
+	        	android.os.Process.killProcess(android.os.Process.myPid());
+	        	System.exit(0);
+    
+	        }
 
+	    })
+	    .setNegativeButton("ปืดหน้าต่าง", null)
+	    .show();
+	}
 }
