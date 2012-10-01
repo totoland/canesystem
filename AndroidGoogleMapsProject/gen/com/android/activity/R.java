@@ -65,6 +65,7 @@ public final class R {
         public static final int travel=0x7f020033;
     }
     public static final class id {
+        public static final int CheckBox01=0x7f040050;
         public static final int balloon_close=0x7f040001;
         public static final int balloon_disclosure=0x7f040024;
         public static final int balloon_inner_layout=0x7f040000;
@@ -99,11 +100,11 @@ public final class R {
         public static final int ddl_venas=0x7f040014;
         public static final int ddl_wather=0x7f04000e;
         public static final int editText1=0x7f04001a;
-        public static final int item_back_home=0x7f040054;
-        public static final int item_cap=0x7f040053;
-        public static final int item_map_hybrid=0x7f040050;
-        public static final int item_map_now_gis=0x7f040051;
-        public static final int item_save=0x7f040052;
+        public static final int item_back_home=0x7f040056;
+        public static final int item_cap=0x7f040055;
+        public static final int item_map_hybrid=0x7f040052;
+        public static final int item_map_now_gis=0x7f040053;
+        public static final int item_save=0x7f040054;
         public static final int label=0x7f040028;
         public static final int lb_army_plant=0x7f040017;
         public static final int lb_cota=0x7f040004;
@@ -117,8 +118,9 @@ public final class R {
         public static final int logo=0x7f040027;
         public static final int map_view=0x7f04002a;
         public static final int map_view2=0x7f040020;
-        public static final int menu_settings=0x7f04004f;
+        public static final int menu_settings=0x7f040051;
         public static final int now_gis=0x7f04002b;
+        public static final int rowTextView=0x7f04004f;
         public static final int spinner1=0x7f040048;
         public static final int spinner2=0x7f04000c;
         public static final int spinner3=0x7f040047;
@@ -164,6 +166,7 @@ public final class R {
         public static final int map=0x7f030009;
         public static final int menu=0x7f03000a;
         public static final int note=0x7f03000b;
+        public static final int simplerow=0x7f03000c;
     }
     public static final class menu {
         public static final int activity_cane_tor1=0x7f070000;
