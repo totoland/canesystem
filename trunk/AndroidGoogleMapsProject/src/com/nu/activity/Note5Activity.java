@@ -76,7 +76,7 @@ public class Note5Activity extends FormActivity {
 ////		addItemsOnSpinner1();
 ////		addItemsOnSpinner2();
 		super.onCreate( savedInstanceState );
-        generateForm( FormActivity.parseFileToString( this, "schemas.json" ) );
+        generateForm( FormActivity.parseFileToString( this, "canetortwo.json" ) );
         save();
 	}
 
