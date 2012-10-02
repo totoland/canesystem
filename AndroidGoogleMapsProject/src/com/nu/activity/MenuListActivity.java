@@ -12,8 +12,8 @@ import android.view.View;
 
 public class MenuListActivity extends ListActivity {
 
-	static final String[] MEMU_LIST = new String[] { "บันทึกข้อมูลอ้อย", "กิจกรรมอ้อยปลูกใหม่ครั่งที่1",
-			"กิจกรรมอ้อยปลูกใหม่ครั่งที่2", "กิจกรรมอ้อยตอครั้งที่1" ,"กิจกรรมอ้อยตอครั้งที่2"};
+	static final String[] MEMU_LIST = new String[] { "กิจกรรมอ้อยปลูกใหม่ครั่งที่1",
+			"กิจกรรมอ้อยปลูกใหม่ครั่งที่2", "กิจกรรมอ้อยตอครั้งที่1" ,"กิจกรรมอ้อยตอครั้งที่2","การวัดการเจริญเติบโตของอ้อย"};
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -34,14 +34,11 @@ public class MenuListActivity extends ListActivity {
 //		Toast.makeText(this, selectedValue, Toast.LENGTH_SHORT).show();
 		String[] values;
 		String s = MEMU_LIST[position];
-		if (s.equals("บันทึกข้อมูลอ้อย")) {
-//            Intent myIntent = new Intent(v.getContext(), Note1Activity.class);
-//            startActivityForResult(myIntent, 0);	
-		}else if (s.equals("กิจกรรมอ้อยปลูกใหม่ครั่งที่1")) {
-//            Intent myIntent = new Intent(v.getContext(), Note2Activity.class);
-//            startActivityForResult(myIntent, 0);		
+		if (s.equals("กิจกรรมอ้อยปลูกใหม่ครั่งที่1")) {
+            Intent myIntent = new Intent(v.getContext(), Note1Activity.class);
+            startActivityForResult(myIntent, 0);		
 		}else if (s.equals("กิจกรรมอ้อยปลูกใหม่ครั่งที่2")) {		
-            Intent myIntent = new Intent(v.getContext(), TestActivity.class);
+            Intent myIntent = new Intent(v.getContext(), Note2Activity.class);
             startActivityForResult(myIntent, 0);
 		}else if (s.equals("กิจกรรมอ้อยตอครั้งที่1")) {		
             Intent myIntent = new Intent(v.getContext(), Note4Activity.class);
@@ -49,6 +46,8 @@ public class MenuListActivity extends ListActivity {
 		}else if (s.equals("กิจกรรมอ้อยตอครั้งที่2")) {		
             Intent myIntent = new Intent(v.getContext(), Note5Activity.class);
             startActivityForResult(myIntent, 0);
+		}else if(s.equals("การวัดการเจริญเติบโตของอ้อย")){
+			
 		}
 		
 

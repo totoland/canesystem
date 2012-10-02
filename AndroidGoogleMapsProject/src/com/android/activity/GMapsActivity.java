@@ -193,11 +193,11 @@ public class GMapsActivity extends MapActivity {
 	    		GeoPoint center = new GeoPoint((nwLat + seLat) / 2, (nwLng + seLng) / 2);
 				mapView.getOverlays().add(new MyOverlay(mapView.getProjection(),tempList,cursor.getString(cursor.getColumnIndex("color")),cursor.getString(cursor.getColumnIndex("strokecolor"))));
 				
-				itemizedOverlay.addOverlay(new OverlayItem(center, "√“¬≈–‡Õ’¬¥·ª≈ß",
+				itemizedOverlay.addOverlay(new OverlayItem(center, "‡∏£‡∏≤‡∏¢‡∏•‡∏∞‡πÄ‡∏≠‡∏µ‡∏¢‡∏î‡πÅ‡∏õ‡∏•‡∏á",
 						 cursor.getString(cursor.getColumnIndex("quotacode"))+"\n"+cursor.getString(cursor.getColumnIndex("plotdatecut"))+" "
 						+cursor.getString(cursor.getColumnIndex("canetypename"))+"\n"+cursor.getString(cursor.getColumnIndex("locationmainname"))+" "
 						+cursor.getString(cursor.getColumnIndex("locationname"))+"\n"+
-						"™◊ËÕ- °ÿ≈™“«‰√Ë "+cursor.getString(cursor.getColumnIndex("satffname"))));
+						"‡∏ä‡∏∑‡πà‡∏≠‡∏™‡∏Å‡∏∏‡∏•‡∏ä‡∏≤‡∏ß‡πÑ‡∏£‡πà "+cursor.getString(cursor.getColumnIndex("satffname"))));
 				mapView.getOverlays().add(itemizedOverlay);
 				listPoint.clear();
 				stateID = cursor.getString(cursor.getColumnIndex("StateID"));
@@ -208,7 +208,7 @@ public class GMapsActivity extends MapActivity {
 			loop++;
 		}while(cursor.moveToNext());
 
-		Toast.makeText( getApplicationContext(),"æ∫∑—ÈßÀ¡¥ "+rowAll+" ·ª≈ß",Toast.LENGTH_LONG).show();
+		Toast.makeText( getApplicationContext(),"‡∏û‡∏ö‡∏Ç‡πâ‡∏≠‡∏°‡∏π‡∏• "+rowAll+" ‡∏£‡∏≤‡∏¢‡∏Å‡∏≤‡∏£",Toast.LENGTH_LONG).show();
 	}
 	
 	public void onClickNewMAP(View view){
@@ -239,7 +239,7 @@ public class GMapsActivity extends MapActivity {
 		try{
 			potNowGis();
 		}catch(Exception ex){
-			Toast.makeText( getApplicationContext(),"æ∫¢ÈÕº‘¥æ≈“¥ : ‰¡Ë “¡“√∂‡™◊ËÕµËÕ Webservice ‰¥È",Toast.LENGTH_LONG).show();
+			Toast.makeText( getApplicationContext(),"‡πÑ‡∏°‡πà‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ‡∏ï‡∏¥‡∏î‡∏ï‡πà‡∏≠ Webservice ‡πÑ‡∏î‡πâ",Toast.LENGTH_LONG).show();
 			closeGIS();
 		}
     }
@@ -250,7 +250,7 @@ public class GMapsActivity extends MapActivity {
     
 	public void onClickStopGIS(View view){
 		closeGIS();
-    	Toast.makeText( getApplicationContext(),"À¬ÿ¥°“√∑”ß“π  GIS",Toast.LENGTH_SHORT).show();
+    	Toast.makeText( getApplicationContext(),"‡∏õ‡∏¥‡∏î  GIS",Toast.LENGTH_SHORT).show();
     }
     public void closeGIS(){
     	mlocListener.onProviderDisabled(null);
@@ -315,7 +315,7 @@ public class GMapsActivity extends MapActivity {
 
 			loc.getLongitude();
 
-			String Text = "§ÿ≥Õ¬ŸË∑’Ë : " +
+			String Text = "‡∏Ñ‡∏∏‡∏ì‡∏≠‡∏¢‡∏π‡πà‡∏ó‡∏µ‡πà : " +
 
 			"Latitud = " + loc.getLatitude() +
 
