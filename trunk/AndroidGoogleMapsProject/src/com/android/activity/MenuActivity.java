@@ -49,11 +49,11 @@ public class MenuActivity extends FormActivity {
 		btnMenu2 = (Button) findViewById(R.id.btnMenu2);
 		btnMenu2.setOnClickListener(new OnClickListener() {
  			public void onClick(View v) {
-                Intent myIntent = new Intent(v.getContext(), MenuListActivity.class);
+                Intent myIntent = new Intent(v.getContext(), ReportMenuActivity.class);
                 startActivityForResult(myIntent, 0);
  			}
  		});
- 		//��§ҹἹ���
+		//รายงานแผนที่
 		btnMenu3 = (Button) findViewById(R.id.btnMenu3);
 		btnMenu3.setOnClickListener(new OnClickListener() {
  			public void onClick(View v) {
@@ -84,6 +84,13 @@ public class MenuActivity extends FormActivity {
  				startActivityForResult(myIntent, 1);
  			}
  		});
+		btnMenu10 =  (Button) findViewById(R.id.btnMenu10);
+		btnMenu10.setOnClickListener(new OnClickListener() {
+
+                public void onClick(View v) {
+                      
+                }
+        });
 
  	}
  	

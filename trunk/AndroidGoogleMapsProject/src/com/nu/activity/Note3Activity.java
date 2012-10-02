@@ -62,17 +62,19 @@ public class Note3Activity extends FormActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-
-		Display display = getWindowManager().getDefaultDisplay();
-		Point size = new Point();
-		int width = display.getWidth();// size.x;
-		int height = display.getHeight();
+//		setContentView(R.layout.main);
+//
+//		Display display = getWindowManager().getDefaultDisplay();
+//		Point size = new Point();
+//		int width = display.getWidth();// size.x;
+//		int height = display.getHeight();
+//		
+//		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
+//		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note3Activity.class.getSimpleName(), width, height);
+		super.onCreate( savedInstanceState );
+        generateForm( FormActivity.parseFileToString( this, "evennewcaneone.json" ) );
+        save();
 		
-		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
-		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note3Activity.class.getSimpleName(), width, height);
-		
-
 	}
 
 

@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import com.android.activity.R;
+import com.android.gen.formgenerator.FormActivity;
 import com.nu.dao.FieldDAO;
 import com.nu.dto.Field;
 
@@ -33,7 +34,7 @@ import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class Note2Activity extends Activity {
+public class Note2Activity extends FormActivity {
 	/** Called when the activity is first created. */
 	// Start Date
 	static final int DATE_DIALOG_ID_1 = 111;
@@ -66,20 +67,23 @@ public class Note2Activity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-
-		Display display = getWindowManager().getDefaultDisplay();
-		Point size = new Point();
-		int width = display.getWidth();// size.x;
-		int height = display.getHeight();
-		
-		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
-		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note2Activity.class.getSimpleName(), width, height);
-		
-//		setCurrentDateOnView();
-//		addListenerOnButton();
-//		addItemsOnSpinner1();
-//		addItemsOnSpinner2();
+//		setContentView(R.layout.main);
+//
+//		Display display = getWindowManager().getDefaultDisplay();
+//		Point size = new Point();
+//		int width = display.getWidth();// size.x;
+//		int height = display.getHeight();
+//		
+//		LinearLayout mainLayout = (LinearLayout) findViewById(R.id.widget0);
+//		mainLayout =  new DrawForm().doDraw(this, mainLayout, Note2Activity.class.getSimpleName(), width, height);
+//		
+////		setCurrentDateOnView();
+////		addListenerOnButton();
+////		addItemsOnSpinner1();
+////		addItemsOnSpinner2();
+		super.onCreate( savedInstanceState );
+        generateForm( FormActivity.parseFileToString( this, "evennewcanetwo.json" ) );
+        save();
 	}
 
 //	private int getX_leble(int column) {
